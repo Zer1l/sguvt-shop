@@ -1,0 +1,254 @@
+/*========================= GLOBAL ============================*/
+
+html,
+body {
+  font-family: SF, sans-serif;
+  color: #515151;
+  line-height: 16px;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1123px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.main__products {
+  margin: 40px 0px 24px 0px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: #f3f3f2;
+}
+
+/*========================= HEADER ============================*/
+
+.header {
+}
+
+.header__top {
+  height: 60px;
+}
+
+.header__top-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header__left-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__logo {
+}
+
+.header__menu {
+}
+
+.header__menu-items {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.24px;
+}
+
+.header__menu-item {
+  padding: 0 10px;
+  transition: all 0.2s;
+}
+
+.header__menu-item:hover {
+  color: #000000;
+}
+
+.header__button-box {
+  display: flex;
+}
+
+.header__button {
+  margin: 0px 10px 0px 0px;
+}
+
+.header__button:last-child {
+  margin: 0;
+}
+
+/*========================= HEADER-BANNER =====================*/
+
+.header__banner {
+  width: 100%;
+  height: 403px;
+  background: url('../images/header-banner.jpg') center no-repeat;
+  background-size: cover;
+}
+
+/*========================= MAIN ==============================*/
+
+.main__products {
+  color: #000;
+  font-weight: 400;
+}
+
+.main__products-inner {
+}
+
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 48px 0px;
+}
+.main__title {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+}
+.main__sorting {
+  font-size: 12px;
+  line-height: 14px;
+}
+.main__sorting-item {
+}
+
+.main__cards {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(3, 1fr);
+  gap: 30px;
+}
+
+.main__card {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 8px 15px 8px;
+}
+
+.main__card-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__card-mark {
+  align-self: start;
+  font-size: 11px;
+  margin: 0px 10px 5px 0px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: #fff;
+  background: #000;
+}
+
+.main__card-image {
+  height: 450px;
+  margin: 0px 0px 10px 0px;
+}
+
+.main__card-sabtitle {
+  padding: 6px 0;
+}
+
+.main__card-price {
+  margin: 5px 0px 12px 0px;
+}
+
+.main__button {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+.main__button svg {
+  margin: 0px 8px 0px 0px;
+}
+
+.main__button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/*========================= FOOTER ============================*/
+
+.footer {
+  background: #000;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.footer__navigation {
+  letter-spacing: 0.24px;
+  line-height: 14px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.footer__list-item {
+}
+
+.footer__item-title {
+  padding: 10px 0;
+}
+
+.footer__menu {
+}
+
+.footer__menu-item {
+  max-width: 240px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.footer__link {
+  padding: 10px 0;
+}
+
+/*========================= FOOTER-COPYRIGHT ==================*/
+
+.footer__copyright {
+  height: 64px;
+}
+
+.footer__copyright-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo img{
+  height: 27px;
+}
+
+.footer__text {
+}
