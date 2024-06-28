@@ -25,13 +25,15 @@
                 <nav class="header__menu">
                   <ul class="header__menu-items">
                     <li class="header__menu-item">
-                      <a href="#" class="header__link">О магазине</a>
+                      <a href="about-store.html" class="header__link"
+                        >О магазине</a
+                      >
                     </li>
                     <li class="header__menu-item">
-                      <a href="#" class="header__link">Товары</a>
+                      <a href="index.html" class="header__link">Товары</a>
                     </li>
                     <li class="header__menu-item">
-                      <a href="#" class="header__link">Контакты</a>
+                      <a href="contacts.html" class="header__link">Контакты</a>
                     </li>
                     <li class="header__menu-item">
                       <a href="#" class="header__link">Как купить</a>
@@ -108,30 +110,243 @@
             <div class="main__products-inner">
               <div class="main__header">
                 <div class="main__title">Все товары</div>
-                <select class="main__sorting">
-                  <option value="all" class="main__sorting-item">Все</option>
-                  <option value="tshirts" class="main__sorting-item">
-                    Футболки
-                  </option>
-                  <option value="sweatshirts" class="main__sorting-item">
-                    Кофты
-                  </option>
-                  <option value="accessories" class="main__sorting-item">
-                    Аксессуары
-                  </option>
-                </select>
+                <div class="main__select-wrapper">
+                  <select class="main__sorting">
+                    <option value="all" class="main__sorting-item">Все</option>
+                    <option
+                      value=".main__card--tshirts"
+                      class="main__sorting-item">
+                      Футболки
+                    </option>
+                    <option
+                      value=".main__card--sweatshirts"
+                      class="main__sorting-item">
+                      Кофты
+                    </option>
+                    <option
+                      value=".main__card--accessories"
+                      class="main__sorting-item">
+                      Аксессуары
+                    </option>
+                  </select>
+                </div>
               </div>
               <ul class="main__cards">
-                <li class="main__card">
+                <li
+                  class="mix main__card main__card--sweatshirts"
+                  data-order="1">
                   <div class="main__card-mark">кофта</div>
-                  <a href="#" class="main__card-link">
+                  <a href="jacket-SGUVT.html" class="main__card-link">
                     <img
                       class="main__card-image"
-                      src="images/card-image1.jpg"
+                      src="images/jacket-SGUVT.jpg"
                       alt="" />
                   </a>
-                  <div class="main__card-sabtitle">зип-худи</div>
-                  <div class="main__card-price">2 599₽</div>
+                  <div class="main__card-sabtitle">ЗИП-ХУДИ / i love сгувт</div>
+                  <div class="main__card-price">2 899₽</div>
+                  <a href="jacket-SGUVT.html" class="main__button"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="8" fill="black" />
+                      <path
+                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
+                        stroke="white"
+                        stroke-linecap="square" />
+                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
+                    </svg>
+                    Купить</a
+                  >
+                </li>
+                <li
+                  class="mix main__card main__card--accessories"
+                  data-order="2">
+                  <div class="main__card-mark">аксессуар</div>
+                  <a href="cap-SGUVT.html" class="main__card-link">
+                    <img
+                      class="main__card-image"
+                      src="images/cap-SGUVT.jpg"
+                      alt="" />
+                  </a>
+                  <div class="main__card-sabtitle">КЕПКа / сгувт blue</div>
+                  <div class="main__card-price">990₽</div>
+                  <a href="cap-SGUVT.html" class="main__button"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="8" fill="black" />
+                      <path
+                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
+                        stroke="white"
+                        stroke-linecap="square" />
+                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
+                    </svg>
+                    Купить</a
+                  >
+                </li>
+                <li
+                  class="mix main__card main__card--accessories"
+                  data-order="3">
+                  <div class="main__card-mark">аксессуар</div>
+                  <a href="cap-SGUVT2.html" class="main__card-link">
+                    <img
+                      class="main__card-image"
+                      src="images/cap-SGUVT2.jpg"
+                      alt="" />
+                  </a>
+                  <div class="main__card-sabtitle">КЕПКа / сгувт pink</div>
+                  <div class="main__card-price">990₽</div>
+                  <a href="cap-SGUVT2.html" class="main__button"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="8" fill="black" />
+                      <path
+                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
+                        stroke="white"
+                        stroke-linecap="square" />
+                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
+                    </svg>
+                    Купить</a
+                  >
+                </li>
+                <li class="mix main__card main__card--tshirts" data-order="4">
+                  <div class="main__card-mark">футболка</div>
+                  <a href="T-shirt-SGUVT.html" class="main__card-link">
+                    <img
+                      class="main__card-image"
+                      src="images/T-shirt-SGUVT.jpg"
+                      alt="" />
+                  </a>
+                  <div class="main__card-sabtitle">
+                    ФУТБОЛКА / сгувт white $One Piece
+                  </div>
+                  <div class="main__card-price">1 590₽</div>
+                  <a href="T-shirt-SGUVT.html" class="main__button"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="8" fill="black" />
+                      <path
+                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
+                        stroke="white"
+                        stroke-linecap="square" />
+                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
+                    </svg>
+                    Купить</a
+                  >
+                </li>
+                <li
+                  class="mix main__card main__card--accessories"
+                  data-order="5">
+                  <div class="main__card-mark">аксессуар</div>
+                  <a href="cap-SGUVT3.html" class="main__card-link">
+                    <img
+                      class="main__card-image"
+                      src="images/cap-SGUVT3.jpg"
+                      alt="" />
+                  </a>
+                  <div class="main__card-sabtitle">КЕПКа / cгувт gray</div>
+                  <div class="main__card-price">890₽</div>
+                  <a href="cap-SGUVT3.html" class="main__button"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="8" fill="black" />
+                      <path
+                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
+                        stroke="white"
+                        stroke-linecap="square" />
+                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
+                    </svg>
+                    Купить</a
+                  >
+                </li>
+                <li class="mix main__card main__card--tshirts" data-order="6">
+                  <div class="main__card-mark">футболка</div>
+                  <a href="T-shirt-SGUVT2.html" class="main__card-link">
+                    <img
+                      class="main__card-image"
+                      src="images/T-shirt-SGUVT2.jpg"
+                      alt="" />
+                  </a>
+                  <div class="main__card-sabtitle">
+                    ФУТБОЛКА / сгувт black logo
+                  </div>
+                  <div class="main__card-price">1 190₽</div>
+                  <a href="T-shirt-SGUVT2.html" class="main__button"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="8" fill="black" />
+                      <path
+                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
+                        stroke="white"
+                        stroke-linecap="square" />
+                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
+                    </svg>
+                    Купить</a
+                  >
+                </li>
+                <li class="mix main__card main__card--tshirts" data-order="7">
+                  <div class="main__card-mark">футболка</div>
+                  <a href="T-shirt-SGUVT3.html" class="main__card-link">
+                    <img
+                      class="main__card-image"
+                      src="images/T-shirt-SGUVT3.jpg"
+                      alt="" />
+                  </a>
+                  <div class="main__card-sabtitle">
+                    ФУТБОЛКА / сгувт blue logo
+                  </div>
+                  <div class="main__card-price">1 190₽</div>
+                  <a href="T-shirt-SGUVT3" class="main__button"
+                    ><svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="8" cy="8" r="8" fill="black" />
+                      <path
+                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
+                        stroke="white"
+                        stroke-linecap="square" />
+                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
+                    </svg>
+                    Купить</a
+                  >
+                </li>
+                <li class="mix main__card main__card--tshirts" data-order="8">
+                  <div class="main__card-mark">футболка</div>
+                  <a href="T-shirt-SGUVT4.html" class="main__card-link">
+                    <img
+                      class="main__card-image"
+                      src="images/T-shirt-SGUVT4.jpg"
+                      alt="" />
+                  </a>
+                  <div class="main__card-sabtitle">
+                    ФУТБОЛКА / сгувт black $One Piece
+                  </div>
+                  <div class="main__card-price">1 590₽</div>
                   <a href="#" class="main__button"
                     ><svg
                       width="16"
@@ -149,125 +364,19 @@
                     Купить</a
                   >
                 </li>
-                <li class="main__card">
-                  <div class="main__card-mark">кофта</div>
-                  <a href="#" class="main__card-link">
+                <li class="mix main__card main__card--tshirts" data-order="9">
+                  <div class="main__card-mark">футболка</div>
+                  <a href="T-shirt-SGUVT5.html" class="main__card-link">
                     <img
                       class="main__card-image"
-                      src="images/card-image1.jpg"
+                      src="images/T-shirt-SGUVT5.jpg"
                       alt="" />
                   </a>
-                  <div class="main__card-sabtitle">зип-худи</div>
-                  <div class="main__card-price">2 599₽</div>
-                  <a href="#" class="main__button"
-                    ><svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="8" cy="8" r="8" fill="black" />
-                      <path
-                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
-                        stroke="white"
-                        stroke-linecap="square" />
-                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
-                    </svg>
-                    Купить</a
-                  >
-                </li>
-                <li class="main__card">
-                  <div class="main__card-mark">кофта</div>
-                  <a href="#" class="main__card-link">
-                    <img
-                      class="main__card-image"
-                      src="images/card-image1.jpg"
-                      alt="" />
-                  </a>
-                  <div class="main__card-sabtitle">зип-худи</div>
-                  <div class="main__card-price">2 599₽</div>
-                  <a href="#" class="main__button"
-                    ><svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="8" cy="8" r="8" fill="black" />
-                      <path
-                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
-                        stroke="white"
-                        stroke-linecap="square" />
-                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
-                    </svg>
-                    Купить</a
-                  >
-                </li>
-                <li class="main__card">
-                  <div class="main__card-mark">кофта</div>
-                  <a href="#" class="main__card-link">
-                    <img
-                      class="main__card-image"
-                      src="images/card-image1.jpg"
-                      alt="" />
-                  </a>
-                  <div class="main__card-sabtitle">зип-худи</div>
-                  <div class="main__card-price">2 599₽</div>
-                  <a href="#" class="main__button"
-                    ><svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="8" cy="8" r="8" fill="black" />
-                      <path
-                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
-                        stroke="white"
-                        stroke-linecap="square" />
-                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
-                    </svg>
-                    Купить</a
-                  >
-                </li>
-                <li class="main__card">
-                  <div class="main__card-mark">кофта</div>
-                  <a href="#" class="main__card-link">
-                    <img
-                      class="main__card-image"
-                      src="images/card-image1.jpg"
-                      alt="" />
-                  </a>
-                  <div class="main__card-sabtitle">зип-худи</div>
-                  <div class="main__card-price">2 599₽</div>
-                  <a href="#" class="main__button"
-                    ><svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="8" cy="8" r="8" fill="black" />
-                      <path
-                        d="M6.37272 12V4C10.0273 4 11.5 4.06636 11.5 6.53323C11.5 9.0001 9.263 9.0001 6.97272 9.0001C6.36718 9.0001 6.09999 9.0001 5.5 9.0001"
-                        stroke="white"
-                        stroke-linecap="square" />
-                      <path d="M5 10.4L10.3999 10.4" stroke="white" />
-                    </svg>
-                    Купить</a
-                  >
-                </li>
-                <li class="main__card">
-                  <div class="main__card-mark">кофта</div>
-                  <a href="#" class="main__card-link">
-                    <img
-                      class="main__card-image"
-                      src="images/card-image1.jpg"
-                      alt="" />
-                  </a>
-                  <div class="main__card-sabtitle">зип-худи</div>
-                  <div class="main__card-price">2 599₽</div>
-                  <a href="#" class="main__button"
+                  <div class="main__card-sabtitle">
+                    ФУТБОЛКА / сгувт white logo
+                  </div>
+                  <div class="main__card-price">1 390₽</div>
+                  <a href="T-shirt-SGUVT5.html" class="main__button"
                     ><svg
                       width="16"
                       height="16"
@@ -385,5 +494,8 @@
         </div>
       </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/mixitup-script.js"></script>
   </body>
 </html>

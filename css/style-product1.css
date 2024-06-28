@@ -102,137 +102,148 @@ body {
 
 /*========================= MAIN ==============================*/
 
-.main__products {
+.main {
+  margin: 100px 0px 0px 0px;
+}
+
+.main__product {
+}
+
+.main__product-inner {
+  display: flex;
+}
+
+.main__product-img {
+  width: 100%;
+  height: 100%;
+}
+
+.main__product-img img {
+  height: 850px;
+}
+
+.main__product-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+.main__product-marks {
+  display: flex;
+  margin: 0px 10px 5px 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+.main__product-mark {
+  padding: 4px 6px;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.main__product-mark--tshirts {
+  background: #5f9be0;
+}
+
+ .main__product-mark--sweatshirts  {
+  background: #000;
+}
+
+.main__product-mark--accessories {
+  background: #e05fd5;
+}
+
+.main__product-name {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.main__product-subprice {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 5px 0px 0px 0px;
+}
+
+.main__product-size {
+  margin: 20px 0;
+}
+
+.main__size-button {
+  color: #15090080;
+  text-transform: uppercase;
+  height: 38px;
+  width: 38px;
+  border-radius: 8px;
+  margin: 0px 10px 0px 0px;
+  background: transparent;
+  border: 2px solid rgba(21, 9, 0, 0.05);
+}
+
+.main__size-button--active {
+  background: #000;
+  color: #fff;
+}
+
+.main__product-subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px 0px 10px 0px;
+}
+
+.main__product-description {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #15090080;
+  margin: 0px 0px 20px 0px;
+}
+
+.main__product-description p {
+  margin: 10px 0;
+}
+
+.main__product-price {
+  background: #f3f3f2;
+  padding: 15px;
+  margin: 0px 0px 25px 0px;
+  border-radius: 20px;
+}
+
+.main__price-title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  margin: 0px 0px 10px 0px;
+  text-transform: uppercase;
+}
+
+.main__price-description {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+}
+
+.main__price-description span {
   color: #000;
   font-weight: 400;
 }
 
-.main__products-inner {
-}
-
-.main__header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0px 0px 48px 0px;
-}
-
-.main__title {
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.main__sorting {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  font-size: 12px;
-  line-height: 14px;
-  padding: 15px 40px 15px 17px;
-  border: 1px solid #f3f3f2;
+.main__product-button {
+  color: #fff;
+  padding: 15px 16px;
+  width: 100%;
+  background: #000;
   border-radius: 8px;
-  background: transparent;
-  cursor: pointer;
-  font-family: SF, sans-serif;
-}
-
-.main__select-wrapper {
-  position: relative;
-}
-
-.main__select-wrapper::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-  display: block;
-  width: 14px;
-  height: 8px;
-  background: url(../images/icons/arrow-select.svg);
-  cursor: pointer;
-  z-index: -1;
-}
-
-.main__sorting-item {
-}
-
-.main__cards {
-  display: grid;
-  grid-template: repeat(2, auto) / repeat(3, 1fr);
-  gap: 30px;
-}
-
-.main__card {
-  text-transform: uppercase;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 8px 8px 15px 8px;
-}
-
-.main__card--tshirts .main__card-mark {
-  background: #5f9be0;
-}
-
-.main__card--sweatshirts .main__card-mark {
-  background: #000;
-}
-
-.main__card--accessories .main__card-mark {
-  background: #e05fd5;
-}
-
-.main__card-mark {
-  align-self: start;
-  font-size: 11px;
-  margin: 0px 10px 5px 0px;
-  padding: 4px 6px;
-  border-radius: 4px;
-  color: #fff;
-  background: #8a8a8a;
-}
-
-.main__card-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main__card-image {
-  height: 450px;
-  margin: 0px 0px 10px 0px;
-}
-
-.main__card-sabtitle {
-  padding: 6px 0;
-}
-
-.main__card-price {
-  margin: 5px 0px 12px 0px;
-}
-
-.main__button {
-  display: flex;
-  align-items: center;
-  padding: 6px 12px;
-  border: 1px solid #000;
-  border-radius: 3px;
-  background: transparent;
-  transition: all 0.3s;
-}
-
-.main__button svg {
-  margin: 0px 8px 0px 0px;
-}
-
-.main__button:hover {
-  background: #000;
-  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 /*========================= FOOTER ============================*/

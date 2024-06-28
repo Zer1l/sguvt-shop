@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Корзина</title>
+    <title>Контакты</title>
     <link
       rel="shortcut icon"
       href="images/icons/sguvt-logo.png"
       type="image/x-icon" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style-basket.css" />
+    <link rel="stylesheet" href="css/style-contacts.css" />
   </head>
   <body>
     <header class="header">
@@ -24,7 +24,9 @@
               <nav class="header__menu">
                 <ul class="header__menu-items">
                   <li class="header__menu-item">
-                    <a href="about-store.html" class="header__link">О магазине</a>
+                    <a href="about-store.html" class="header__link"
+                      >О магазине</a
+                    >
                   </li>
                   <li class="header__menu-item">
                     <a href="index.html" class="header__link">Товары</a>
@@ -101,71 +103,83 @@
       </div>
     </header>
     <main class="main">
-      <div class="main__basket">
-        <div class="container">
-          <div class="main__basket-inner">
-            <div class="main__basket-title">Корзина</div>
-            <ul class="main__basket-items">
-              <li class="main__basket-item">
-                <div class="main__item-img">
-                  <a href="#" class="main__item-link"
-                    ><img src="images/jacket-SGUVT.jpg" alt=""
-                  /></a>
-                </div>
-                <div class="main__item-info">
-                  <div class="main__item-title">
-                    <a href="#" cl ass="main__item-link">ЗИП-ХУДИ / I LOVE СГУВТ</a>
-                  </div>
-                  <div class="main__item-oneprice">2 899₽</div>
-                  <div class="main__item-count">Количество: 2</div>
-                  <div class="main__item-moreprice">5 798₽</div>
-                  <div class="main__count-box">
-                    <button class="main__minus-button"></button>
-                    <button class="main__plus-button"></button>
-                  </div>
-                  <div class="main__size-box">
-                    <button class="main__size-button main__size-button--active">
-                      s
-                    </button>
-                    <button class="main__size-button">m</button>
-                    <button class="main__size-button">l</button>
-                    <button class="main__size-button">xl</button>
-                    <button class="main__size-button">2xl</button>
-                  </div>
-                </div>
-                <button class="main__button-close"></button>
-              </li>
-              <li class="main__basket-item">
-                <div class="main__item-img">
-                  <a href="#" class="main__item-link"
-                    ><img src="images/jacket-SGUVT.jpg" alt=""
-                  /></a>
-                </div>
-                <div class="main__item-info">
-                  <div class="main__item-title">
-                    <a href="#" cl ass="main__item-link">ЗИП-ХУДИ / I LOVE СГУВТ</a>
-                  </div>
-                  <div class="main__item-oneprice">2 899₽</div>
-                  <div class="main__item-count">Количество: 2</div>
-                  <div class="main__item-moreprice">5 798₽</div>
-                  <div class="main__count-box">
-                    <button class="main__minus-button"></button>
-                    <button class="main__plus-button"></button>
-                  </div>
-                  <div class="main__size-box">
-                    <button class="main__size-button main__size-button--active">
-                      s
-                    </button>
-                    <button class="main__size-button">m</button>
-                    <button class="main__size-button">l</button>
-                    <button class="main__size-button">xl</button>
-                    <button class="main__size-button">2xl</button>
-                  </div>
-                </div>
-                <button class="main__button-close"></button>
-              </li>
-            </ul>
-            <button class="main__button-arrange">Оформить заказ</button>
+      <div class="container">
+        <div class="main__contacts">
+          <div class="main__contacts-inner">
+            <div class="main__info">
+              <div class="main__title">Контакты</div>
+              <div class="main__subtitle">Адреса:</div>
+              <div class="main__text">
+                <p>
+                  Новосибирск, ул. Щетинкина, 33 (главный корпус) <br />
+                  Новосибирск, ул. Мичурина, 4 (Новосибирское командное речное
+                  училище им. С. И. Дежнёва)
+                </p>
+              </div>
+              <div class="main__subtitle">Телефоны:</div>
+              <div class="main__text">
+                <p>
+                  Главный корпус -
+                  <a class="main__link" href="tel:83832226468"
+                    >7 (383) 222 64 68</a
+                  >,
+                  <a class="main__link" href="tel:838322249">
+                    7 (383) 222 49 76</a
+                  >
+                  <br />
+                  Новосибирское командное речное училище им. С. И. Дежнёва -
+                  <a class="main__link" href="tel:83832221137">
+                    7 (383) 222 11 37</a
+                  >,
+                  <a class="main__link" href="tel:83832226084">
+                    7 (383) 222 60 84</a
+                  ><br />
+                  Приемная комиссия -
+                  <a class="main__link" href="tel:83832221200">
+                    7 (383) 222 12 00</a
+                  >
+                </p>
+              </div>
+              <div class="main__subtitle">Электронные адреса:</div>
+              <div class="main__text">
+                <p>
+                  Главный корпус -
+                  <a class="main__link" href="mail:info@nsawt.ru">
+                    info@nsawt.ru</a
+                  >
+                  <br />
+                  Новосибирское командное речное училище им. С. И. Дежнёва -
+                  <a class="main__link" href="mail:nkru@nsawt.ru">
+                    nkru@nsawt.ru</a
+                  ><br />
+                  Приемная комиссия -
+                  <a class="main__link" href="mail:fdp@nsawt.ru">
+                    fdp@nsawt.ru</a
+                  >
+                </p>
+              </div>
+              <div class="main__subtitle">Часы работы:</div>
+              <div class="main__text">
+                <p>
+                  Пн-Сб с 09:00 до 17:00
+                  <br />
+                  Вс выходной
+                </p>
+              </div>
+              <div class="main__subtitle">
+                ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ О КОМПАНИИ “SGUVT-SHOP”:
+              </div>
+              <div class="main__text">
+                <p>
+                  ООО «SGUVT-SHOP»,<br />ОГРН 1131231035193, <br />ИНН
+                  772426312309,<br /><br />
+                  ИП «Герман Даниил Максимович» <br />ОГРНИП 3166317650089857
+                  <br />ИНН 632409849017 <br />
+                  <br />Юридический и фактический адрес: <br />улица Щетинкина,
+                  33, Новосибирск, 630099
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -265,7 +279,5 @@
         </div>
       </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>

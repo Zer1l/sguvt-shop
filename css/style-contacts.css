@@ -96,134 +96,46 @@ body {
 /*========================= MAIN ============================*/
 
 .main {
-  margin: 100px 0px 24px 0px;
+  margin: 100px 0px 0px 0px;
 }
 
-.main__basket {
+.main__contacts {
+}
+
+.main__contacts-inner {
+}
+
+.main__info {
+  padding: 0px 15px 25px 15px;
   color: #000;
-  min-height: 500px;
-}
-
-.main__basket-inner {
-  display: flex;
-  flex-direction: column;
 }
 
 .main__title {
-  text-transform: uppercase;
   font-size: 18px;
   line-height: 21px;
+  text-transform: uppercase;margin: 0px 0px 25px 0px;
+  
 }
 
-.main__basket-items {
+.main__subtitle {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
   margin: 20px 0;
 }
 
-.main__basket-item {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin: 0px 0px 30px 0px;
-}
-
-.main__item-img {
-  margin: 0px 5px 0px 0px;
-}
-
-.main__item-link img {
-  height: 200px;
-}
-
-.main__item-info {
-  font-size: 12px;
+.main__text {
   font-weight: 400;
-  color: #15090080;
-}
-
-.main__item-title {
-  text-transform: uppercase;
-  color: #000;
-  margin: 0px 0px 10px 0px;
-}
-
-.main__item-link {
-}
-.main__item-oneprice {
-  margin: 0px 0px 10px 0px;
-}
-.main__item-count {
-  margin: 0px 0px 10px 0px;
-}
-.main__item-moreprice {
-  margin: 0px 0px 30px 0px;
-}
-.main__count-box {
-  display: flex;
-  margin: 0px 0px 20px 0px;
-}
-
-.main__minus-button {
-  background-image: url(../images/icons/minus-icon.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 38px;
-  width: 38px;
-  border-radius: 8px;
-  margin: 0px 10px 0px 0px;
-}
-
-.main__plus-button {
-  background-image: url(../images/icons/plus-icon.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 38px;
-  width: 38px;
-  border-radius: 8px;
-}
-
-.main__button:last-child {
-  margin: 0;
-}
-
-.main__size-button {
-  color: #15090080;
-  text-transform: uppercase;
-  height: 38px;
-  width: 38px;
-  border-radius: 8px;
-  margin: 0px 10px 0px 0px;
-  background: transparent;
-  border: 2px solid rgba(21, 9, 0, 0.05);
-}
-
-.main__size-button--active {
-  background: #000;
-  color: #fff;
-}
-
-.main__button-close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 38px;
-  width: 38px;
-  border-radius: 8px;
-  background: #000;
-  background-image: url(../images/icons/cross-icon.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.main__button-arrange {
-  align-self: end;
-  text-transform: uppercase;
-  color: #fff;
-  background: #000;
-  padding: 15px 16px;
-  border-radius: 8px;
   font-size: 12px;
-  width: 360px;
-  justify-content: center;
+  line-height: 14px;
+}
+
+.main__text p {
+  margin: 0px 0px 15px 0px;
+}
+
+.main__link {
+  text-decoration: underline;
 }
 
 /*========================= FOOTER ============================*/
